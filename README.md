@@ -1,1 +1,1 @@
-Will Update this page on 30th July,2024 in the evening.
+Will Update this page by the evening of 30th July,2024.
