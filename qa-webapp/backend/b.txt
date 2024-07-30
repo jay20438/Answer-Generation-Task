@@ -1,1 +1,2 @@
-
+https://drive.google.com/drive/folders/1d1dFmldCf_QwOwUt87usJK9QecYJfB0a?usp=drive_link
+This link contains both BART and FlanT5 models. As these models take a lot of storage so they cannot be uploaded directly on github.
