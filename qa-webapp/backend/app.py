@@ -23,7 +23,7 @@ def generate():
     answer = tokenizer_b.decode(outputs[0], skip_special_tokens=True)  # Use skip_special_tokens=True
 
     inputs_t = tokenizer_t.encode("question: " + question, return_tensors="pt")
-    outputs_t = model_t.generate(inputs_t, max_new_tokens=150)  # Adjust max_new_tokens as needed
+    outputs_t = model_t.generate(inputs_t, max_new_tokens=50)  # Adjust max_new_tokens as needed
     answer_t = tokenizer_t.decode(outputs_t[0], skip_special_tokens=True)  # Use skip_special_tokens=True
 
     print(f"Generated answer 1: {answer} \n\nGenerated answer2: {answer_t}")  # Debugging log
